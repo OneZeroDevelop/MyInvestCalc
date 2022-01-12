@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         android:text="Посчитать прибыль"
         android:textSize="10sp"
         app:backgroundTint="#6B8AF8"
@@ -52,9 +52,9 @@
         android:layout_marginEnd="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_days" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_calc" />
 
     <TextView
         android:id="@+id/textView2"
@@ -70,7 +70,7 @@
         android:id="@+id/btn_changePercent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="36dp"
         android:text="Поменять процент"
         android:textSize="10sp"
