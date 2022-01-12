@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     double inFact = profit * infl;
 
               tv_result.setText("При текущих условиях, через " + String.valueOf(days) + " дней прибыль составит "
-                      + String.format("%.2f", profit) + " или " +  String.format("%.2f", profitPerDay));
+                      + String.format("%.2f", profit) + " или " +  String.format("%.2f", profitPerDay) + " ежедневно");
             }
         });
 
