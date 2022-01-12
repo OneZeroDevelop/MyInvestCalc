@@ -95,11 +95,5 @@ public class MainActivity extends AppCompatActivity {
         }catch (RuntimeException e){
            // Toast.makeText(MainActivity.this, "upd_percent dosnt exist", Toast.LENGTH_LONG).show();
         }
-
-
-
-
-
-
     }
 }
